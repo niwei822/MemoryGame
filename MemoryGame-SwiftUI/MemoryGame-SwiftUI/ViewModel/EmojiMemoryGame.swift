@@ -13,7 +13,7 @@ class EmojiMemoryGame: ObservableObject {
    static let emojis = ["🚝", "✈️", "⛵️", "🚗","🚲", "🏎", "🚓", "🛵","🛺", "🚠", "🚀", "🚂","🚢", "🚞", "💺", "🦼","🚑", "🚒", "🦼", "🛶","🚜", "🚈", "⛵️", "🛳"]
     
    static func createMemoryGame() -> MemoryGame<String> {
-        MemoryGame<String>(numberofPairsOfCards: 12) { pairIndex in emojis[pairIndex]
+        MemoryGame<String>(numberofPairsOfCards: 2) { pairIndex in emojis[pairIndex]
     }
    }
  

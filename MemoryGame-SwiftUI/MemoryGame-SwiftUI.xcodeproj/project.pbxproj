@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C192AAB28D69EF2000DBFA7 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C192AAA28D69EF2000DBFA7 /* AspectVGrid.swift */; };
 		8C34EB2728D0EA6200C039B8 /* MemoryGame_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C34EB2628D0EA6200C039B8 /* MemoryGame_SwiftUIApp.swift */; };
 		8C34EB2928D0EA6200C039B8 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C34EB2828D0EA6200C039B8 /* EmojiMemoryGameView.swift */; };
 		8C34EB2B28D0EA6500C039B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C34EB2A28D0EA6500C039B8 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C192AAA28D69EF2000DBFA7 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		8C34EB2328D0EA6200C039B8 /* MemoryGame-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemoryGame-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C34EB2628D0EA6200C039B8 /* MemoryGame_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame_SwiftUIApp.swift; sourceTree = "<group>"; };
 		8C34EB2828D0EA6200C039B8 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8C34EB2828D0EA6200C039B8 /* EmojiMemoryGameView.swift */,
+				8C192AAA28D69EF2000DBFA7 /* AspectVGrid.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				8C34EB3528D24D7900C039B8 /* MemoryGame.swift in Sources */,
 				8C34EB2928D0EA6200C039B8 /* EmojiMemoryGameView.swift in Sources */,
 				8C34EB2728D0EA6200C039B8 /* MemoryGame_SwiftUIApp.swift in Sources */,
+				8C192AAB28D69EF2000DBFA7 /* AspectVGrid.swift in Sources */,
 				8C34EB3B28D250E300C039B8 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
